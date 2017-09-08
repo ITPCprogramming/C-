@@ -15,9 +15,7 @@ int main(){
   string Operator;
   float num2;
   float result;
-  cin >> num1;
-  cin >> Operator;
-  cin >> num2;
+  cin >> num1 >> Operator >> num2;
   if(Operator == "+"){
     result = num1 + num2;
     print(result);
